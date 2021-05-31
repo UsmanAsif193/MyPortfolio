@@ -29,4 +29,4 @@ jobs:
 
       # Deploy to the defined URL using the token
       - name: Deploy to surge
-        run: surge ./usmanasif-portfolio.surge.sh --token ${{secrets.TOKEN}}
+        run: surge ./usmanasif-portfolio.surge.sh --token ${{secrets.SURGE_TOKEN}}
